@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		381CC16A30740D6D006E5A4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 381CC15430740D6C006E5A4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 381CC15B30740D6C006E5A4E;
+			remoteInfo = Macromate;
+		};
+		381CC17430740D6D006E5A4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 381CC15430740D6C006E5A4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 381CC15B30740D6C006E5A4E;
+			remoteInfo = Macromate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		381CC15C30740D6C006E5A4E /* Macromate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Macromate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		381CC16930740D6D006E5A4E /* MacromateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacromateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		381CC17330740D6D006E5A4E /* MacromateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacromateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		381CC15E30740D6C006E5A4E /* Macromate */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Macromate;
+			sourceTree = "<group>";
+		};
+		381CC16C30740D6D006E5A4E /* MacromateTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MacromateTests;
+			sourceTree = "<group>";
+		};
+		381CC17630740D6D006E5A4E /* MacromateUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MacromateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		381CC15930740D6C006E5A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		381CC16630740D6D006E5A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		381CC17030740D6D006E5A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		381CC15330740D6C006E5A4E = {
+			isa = PBXGroup;
+			children = (
+				381CC15E30740D6C006E5A4E /* Macromate */,
+				381CC16C30740D6D006E5A4E /* MacromateTests */,
+				381CC17630740D6D006E5A4E /* MacromateUITests */,
+				381CC15D30740D6C006E5A4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		381CC15D30740D6C006E5A4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				381CC15C30740D6C006E5A4E /* Macromate.app */,
+				381CC16930740D6D006E5A4E /* MacromateTests.xctest */,
+				381CC17330740D6D006E5A4E /* MacromateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		381CC15B30740D6C006E5A4E /* Macromate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 381CC17B30740D6D006E5A4E /* Build configuration list for PBXNativeTarget "Macromate" */;
+			buildPhases = (
+				381CC15830740D6C006E5A4E /* Sources */,
+				381CC15930740D6C006E5A4E /* Frameworks */,
+				381CC15A30740D6C006E5A4E /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				381CC15E30740D6C006E5A4E /* Macromate */,
+			);
+			name = Macromate;
+			productName = Macromate;
+			productReference = 381CC15C30740D6C006E5A4E /* Macromate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		381CC16830740D6D006E5A4E /* MacromateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 381CC17E30740D6D006E5A4E /* Build configuration list for PBXNativeTarget "MacromateTests" */;
+			buildPhases = (
+				381CC16530740D6D006E5A4E /* Sources */,
+				381CC16630740D6D006E5A4E /* Frameworks */,
+				381CC16730740D6D006E5A4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				381CC16B30740D6D006E5A4E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				381CC16C30740D6D006E5A4E /* MacromateTests */,
+			);
+			name = MacromateTests;
+			productName = MacromateTests;
+			productReference = 381CC16930740D6D006E5A4E /* MacromateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		381CC17230740D6D006E5A4E /* MacromateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 381CC18130740D6D006E5A4E /* Build configuration list for PBXNativeTarget "MacromateUITests" */;
+			buildPhases = (
+				381CC16F30740D6D006E5A4E /* Sources */,
+				381CC17030740D6D006E5A4E /* Frameworks */,
+				381CC17130740D6D006E5A4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				381CC17530740D6D006E5A4E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				381CC17630740D6D006E5A4E /* MacromateUITests */,
+			);
+			name = MacromateUITests;
+			productName = MacromateUITests;
+			productReference = 381CC17330740D6D006E5A4E /* MacromateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		381CC15430740D6C006E5A4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					381CC15B30740D6C006E5A4E = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					381CC16830740D6D006E5A4E = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 381CC15B30740D6C006E5A4E;
+					};
+					381CC17230740D6D006E5A4E = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 381CC15B30740D6C006E5A4E;
+					};
+				};
+			};
+			buildConfigurationList = 381CC15730740D6C006E5A4E /* Build configuration list for PBXProject "Macromate" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 381CC15330740D6C006E5A4E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 381CC15D30740D6C006E5A4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				381CC15B30740D6C006E5A4E /* Macromate */,
+				381CC16830740D6D006E5A4E /* MacromateTests */,
+				381CC17230740D6D006E5A4E /* MacromateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		381CC15A30740D6C006E5A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		381CC16730740D6D006E5A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		381CC17130740D6D006E5A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		381CC15830740D6C006E5A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		381CC16530740D6D006E5A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		381CC16F30740D6D006E5A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		381CC16B30740D6D006E5A4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 381CC15B30740D6C006E5A4E /* Macromate */;
+			targetProxy = 381CC16A30740D6D006E5A4E /* PBXContainerItemProxy */;
+		};
+		381CC17530740D6D006E5A4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 381CC15B30740D6C006E5A4E /* Macromate */;
+			targetProxy = 381CC17430740D6D006E5A4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		381CC17930740D6D006E5A4E /* Debug configuration for PBXProject "Macromate" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		381CC17A30740D6D006E5A4E /* Release configuration for PBXProject "Macromate" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		381CC17C30740D6D006E5A4E /* Debug configuration for PBXNativeTarget "Macromate" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xentriom.Macromate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		381CC17D30740D6D006E5A4E /* Release configuration for PBXNativeTarget "Macromate" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xentriom.Macromate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		381CC17F30740D6D006E5A4E /* Debug configuration for PBXNativeTarget "MacromateTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xentriom.MacromateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Macromate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Macromate";
+			};
+			name = Debug;
+		};
+		381CC18030740D6D006E5A4E /* Release configuration for PBXNativeTarget "MacromateTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xentriom.MacromateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Macromate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Macromate";
+			};
+			name = Release;
+		};
+		381CC18230740D6D006E5A4E /* Debug configuration for PBXNativeTarget "MacromateUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xentriom.MacromateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Macromate;
+			};
+			name = Debug;
+		};
+		381CC18330740D6D006E5A4E /* Release configuration for PBXNativeTarget "MacromateUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xentriom.MacromateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Macromate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		381CC15730740D6C006E5A4E /* Build configuration list for PBXProject "Macromate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381CC17930740D6D006E5A4E /* Debug configuration for PBXProject "Macromate" */,
+				381CC17A30740D6D006E5A4E /* Release configuration for PBXProject "Macromate" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		381CC17B30740D6D006E5A4E /* Build configuration list for PBXNativeTarget "Macromate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381CC17C30740D6D006E5A4E /* Debug configuration for PBXNativeTarget "Macromate" */,
+				381CC17D30740D6D006E5A4E /* Release configuration for PBXNativeTarget "Macromate" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		381CC17E30740D6D006E5A4E /* Build configuration list for PBXNativeTarget "MacromateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381CC17F30740D6D006E5A4E /* Debug configuration for PBXNativeTarget "MacromateTests" */,
+				381CC18030740D6D006E5A4E /* Release configuration for PBXNativeTarget "MacromateTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		381CC18130740D6D006E5A4E /* Build configuration list for PBXNativeTarget "MacromateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381CC18230740D6D006E5A4E /* Debug configuration for PBXNativeTarget "MacromateUITests" */,
+				381CC18330740D6D006E5A4E /* Release configuration for PBXNativeTarget "MacromateUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 381CC15430740D6C006E5A4E /* Project object */;
+	validationLevel = 1;
+}
